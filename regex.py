@@ -9,5 +9,6 @@ for line in handle :
 	if len(nums) > 0 :
 		for num in nums :
 			sum += int(num)
+#End of program, print the final sum
 
 print(sum)
