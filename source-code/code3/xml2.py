@@ -1,4 +1,5 @@
 import xml.etree.ElementTree as ET
+# This got blowned up the first time, I don't know how.
 
 input = '''
 <stuff>
