@@ -17,7 +17,7 @@ ctx.verify_mode = ssl.CERT_NONE
 
 connection = urllib.request.urlopen(url, context=ctx)
 data = connection.read()
-print(data)
+print(data.decode())
 
 print ('======================================')
 headers = dict(connection.getheaders())
