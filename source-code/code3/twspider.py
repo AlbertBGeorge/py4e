@@ -52,6 +52,7 @@ while True:
                     (friend, ))
         try:
             count = cur.fetchone()[0]
+            # If friends are found, then update the sql and increment friends count by 1.
             cur.execute('UPDATE Twitter SET friends = ? WHERE name = ?',
                         (count+1, friend))
             countold = countold + 1
